@@ -1,4 +1,4 @@
-package com.lsegDudes.cieplaSumka;
+package com.lsegDudes.cieplaSumka.controllers;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,5 +16,5 @@ public class GreetingsController {
     public ResponseEntity<String> sayGoodBye(){
         return ResponseEntity.ok("Good bye and see you later");
     }
-    //todo finished at this minute https://youtu.be/b9O9NI-RJ3o?t=585
+    //todo finished at this minute https://youtu.be/b9O9NI-RJ3o?t=875
 }
